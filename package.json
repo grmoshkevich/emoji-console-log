@@ -9,6 +9,8 @@
   "categories": [
     "Other"
   ],
+	"publisher": "grmoshkevich",
+	"license": "MIT",
 	"repository": "https://github.com/grmoshkevich/emoji-console-log",
   "activationEvents": [
     "onCommand:emoji-console-log.log"
