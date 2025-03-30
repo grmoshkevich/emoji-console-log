@@ -10,14 +10,21 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:random-emoji-log.log" // Activate when the command is called
+    "onCommand:emoji-console-log.log"
   ],
-  "main": "./out/extension.js", // Or ./dist/extension.js depending on bundler setup
+  "main": "./out/extension.js", 
   "contributes": {
     "commands": [
       {
-        "command": "emoji-console-log.helloWorld",
-        "title": "Hello World"
+        "command": "emoji-console-log.log",
+        "title": "Log with Emoji"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "emoji-console-log.log",
+				"key": "ctrl+l ctrl+l",
+				"mac": "cmd+alt+l cmd+alt+l"
       }
     ]
   },
