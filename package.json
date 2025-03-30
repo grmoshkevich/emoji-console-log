@@ -1,6 +1,6 @@
 {
-  "name": "emoji-console-log",
-  "displayName": "Emoji Console Log",
+  "name": "console-log-emoji",
+  "displayName": "Console Log with Emoji",
   "description": "Adds console.log with a random emoji",
   "version": "0.0.1",
   "engines": {
@@ -9,23 +9,23 @@
   "categories": [
     "Other"
   ],
-	"publisher": "grmoshkevich",
+	"publisher": "GrigoriiMoshkevich",
 	"license": "MIT",
-	"repository": "https://github.com/grmoshkevich/emoji-console-log",
+	"repository": "https://github.com/grmoshkevich/console-log-emoji",
   "activationEvents": [
-    "onCommand:emoji-console-log.log"
+    "onCommand:console-log-emoji.log"
   ],
   "main": "./out/extension.js", 
   "contributes": {
     "commands": [
       {
-        "command": "emoji-console-log.log",
+        "command": "console-log-emoji.log",
         "title": "Log with Emoji"
       }
     ],
     "keybindings": [
       {
-        "command": "emoji-console-log.log",
+        "command": "console-log-emoji.log",
 				"key": "ctrl+l ctrl+l",
 				"mac": "cmd+alt+l cmd+alt+l"
       }

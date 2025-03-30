@@ -21,10 +21,10 @@ function getIndent(document: vscode.TextDocument, lineNumber: number): string {
 // This method is called when your extension is activated
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log('Congratulations, your extension "emoji-console-log" is now active!');
+	console.log('Congratulations, your extension "console-log-emoji" is now active!');
 
 	// Register the command
-	const disposable = vscode.commands.registerCommand('emoji-console-log.log', () => {
+	const disposable = vscode.commands.registerCommand('console-log-emoji.log', () => {
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) {
 			vscode.window.showInformationMessage("No active editor found.");
