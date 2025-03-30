@@ -1,3 +1,3 @@
-Console.log with Emojis ☺
+Console.log with Emojis 🚀❤😀🌍
 
 **Enjoy!**
