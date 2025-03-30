@@ -9,8 +9,10 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
-  "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:random-emoji-log.log" // Activate when the command is called
+  ],
+  "main": "./out/extension.js", // Or ./dist/extension.js depending on bundler setup
   "contributes": {
     "commands": [
       {
