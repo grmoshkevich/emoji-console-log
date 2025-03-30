@@ -12,7 +12,7 @@
   "browser": "./dist/web/extension.js",
   "publisher": "GrigoriiMoshkevich",
   "license": "MIT",
-  "repository": "https://github.com/grmoshkevich/console-log-emoji",
+  "repository": "https://github.com/grmoshkevich/emoji-console-log",
   "icon": "icon.png",
   "activationEvents": [
     "onCommand:console-log-emoji.log"
