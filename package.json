@@ -12,6 +12,7 @@
 	"publisher": "GrigoriiMoshkevich",
 	"license": "MIT",
 	"repository": "https://github.com/grmoshkevich/console-log-emoji",
+  "icon": "icon.png",
   "activationEvents": [
     "onCommand:console-log-emoji.log"
   ],
@@ -26,8 +27,8 @@
     "keybindings": [
       {
         "command": "console-log-emoji.log",
-				"key": "ctrl+l ctrl+l",
-				"mac": "cmd+alt+l cmd+alt+l"
+				"key": "ctrl+alt+l",
+				"mac": "cmd+alt+l"
       }
     ]
   },
