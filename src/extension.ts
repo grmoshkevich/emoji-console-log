@@ -76,7 +76,7 @@ export function activate(context: vscode.ExtensionContext) {
 		// Construct the log statement
 		const logStatement = textToLog
 			? `console.log('${nextEmoji}', ${textToLog});`
-			: `console.log('${nextEmoji}');`;
+			: `console.log('${nextEmoji}', );`;
 
 		// Apply the edit and move cursor
 		editor.edit(editBuilder => {
